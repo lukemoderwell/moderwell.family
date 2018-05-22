@@ -8,11 +8,12 @@ layout: default
   {{ content }}
 </article>
 
-{% if site.related_posts != empty %}
+{% assign posted = site.related_posts | where: "draft", true %}
+{% if posted != empty %}
 <aside class="related">
   <h3>Related posts</h3>
   <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
+    {% for post in posted limit:3 %}
       <li>
         <a href="{{ site.baseurl }}{{ post.url }}">
           {{ post.title }}
