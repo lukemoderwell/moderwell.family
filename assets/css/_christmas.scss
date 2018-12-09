@@ -1,0 +1,49 @@
+.christmas-card {
+  --image: url(https://s3.us-east-2.amazonaws.com/moderwell.family/christmas-2018/IMG_7313.JPG);
+  --color-v: white;
+  --color: grey;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+
+  // bg image with multiple layer effects
+  // https://codepen.io/danwilson/pen/dqZvmx
+  background:
+    radial-gradient(circle, transparent 40%, var(--color-v) 75%),
+    linear-gradient(to right, var(--color), var(--color)),
+    var(--image);
+  background-position: center center;
+  background-size: cover;
+  background-blend-mode:
+    var(--blend-top, normal),
+    var(--blend-bottom, saturation),
+    normal;
+
+
+  .christmas-card-content {
+    margin-bottom: 2rem;
+    text-align: center;
+    color: white !important;
+
+    h4 {
+      font-family: 'EB Garamond', serif;
+      font-weight: 300;
+      font-size: 32px;
+      color: white;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: .75rem 1.5rem;
+      font-size: .75rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      background: white;
+      color: black;
+      margin-top: .5rem;
+    }
+  }
+}

@@ -18,8 +18,13 @@ assets:
   - assets/css
   - assets/img
 
-
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+
+collections_dir: collections
+
+collections:
+  christmas_pics:
+    output: false

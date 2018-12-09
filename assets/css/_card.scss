@@ -1,0 +1,22 @@
+.card {
+  position: relative;
+  padding: 1rem;
+  background: #ffffff;
+
+  .card-title {
+    font-size: .875rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .card-text {
+    font-size: .875rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .card-img {
+    margin: 0;
+  }
+}
