@@ -18,7 +18,7 @@ GEM
     extras (0.3.0)
       forwardable-extended (~> 2.5)
     fastimage (2.1.4)
-    ffi (1.9.23)
+    ffi (1.9.25)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     i18n (0.9.5)
@@ -72,7 +72,7 @@ GEM
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.2)
-    rack (2.0.5)
+    rack (2.0.6)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
@@ -95,10 +95,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ffi (~> 1.9.24)
   jekyll (~> 3.7.3)
   jekyll-assets
   jekyll-feed (~> 0.6)
+  rack (~> 2.0.6)
   tzinfo-data
 
 BUNDLED WITH
-   1.16.1
+   1.17.1

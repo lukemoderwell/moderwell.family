@@ -1,6 +1,6 @@
 .christmas-card {
-  --image: url(https://s3.us-east-2.amazonaws.com/moderwell.family/christmas-2018/IMG_7313.JPG);
-  --color-v: white;
+  --image: url(https://s3.us-east-2.amazonaws.com/moderwell.family/christmas-2018/fam-2.jpg);
+  --color-v: #212121;
   --color: grey;
 
   display: flex;
@@ -31,8 +31,12 @@
     h4 {
       font-family: 'EB Garamond', serif;
       font-weight: 300;
-      font-size: 32px;
+      font-size: 1.5rem;
       color: white;
+
+      @media (min-width: 767px) {
+        font-size: 2rem;
+      }
     }
 
     .btn {
