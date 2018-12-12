@@ -44,15 +44,26 @@
     font-family: 'Rubik';
     font-size: .875rem;
 
+    h4, p {
+      margin: 0 auto;
+      margin-bottom: .5rem;
+    }
+
     h4 {
+      max-width: 65rem;
       font-family: 'Rubik Mono One';
       font-weight: 300;
       font-size: 1.5rem;
       color: white;
+      
 
       @media (min-width: 767px) {
-        font-size: 2rem;
+        font-size: 1.75rem;
       }
+    }
+
+    p {
+      max-width: 40rem;
     }
 
     .christmas-card-buttons {
@@ -67,6 +78,10 @@
         background: white;
         color: black;
         margin-top: .5rem;
+      }
+
+      .btn + .btn {
+        margin-left: 1rem;
       }
     }
   }
