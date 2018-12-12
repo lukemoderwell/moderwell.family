@@ -1,20 +1,14 @@
-.christmas-card {
-  --image: url(https://s3.us-east-2.amazonaws.com/moderwell.family/christmas-2018/fam-2.jpg);
-  --color-v: #212121;
-  --color: grey;
-
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
-
+.radial-overlay {
   // bg image with multiple layer effects
   // https://codepen.io/danwilson/pen/dqZvmx
+  --image: url(https://s3.us-east-2.amazonaws.com/moderwell.family/christmas-2018/family.jpg);
+  --image-mobile: url(https://s3.us-east-2.amazonaws.com/moderwell.family/christmas-2018/family-small.jpg);
+  --color-v: #212121;
+  --color: grey;
   background:
-    radial-gradient(circle, transparent 40%, var(--color-v) 75%),
+    radial-gradient(circle, transparent 55%, var(--color-v) 85%),
     linear-gradient(to right, var(--color), var(--color)),
-    var(--image);
+    var(--image-mobile);
   background-position: center center;
   background-size: cover;
   background-blend-mode:
@@ -22,14 +16,36 @@
     var(--blend-bottom, saturation),
     normal;
 
+  @media (min-width: 960px) {
+    background:
+      radial-gradient(circle, transparent 40%, var(--color-v) 85%),
+      linear-gradient(to right, var(--color), var(--color)),
+      var(--image);
+    background-size: cover;
+  }
+}
+
+.bg-overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+
+.christmas-card {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
 
   .christmas-card-content {
-    margin-bottom: 2rem;
+    width: 100%;
+    padding: 1rem 1.5rem;
     text-align: center;
     color: white !important;
+    font-family: 'Rubik';
+    font-size: .875rem;
 
     h4 {
-      font-family: 'EB Garamond', serif;
+      font-family: 'Rubik Mono One';
       font-weight: 300;
       font-size: 1.5rem;
       color: white;
@@ -39,15 +55,19 @@
       }
     }
 
-    .btn {
-      display: inline-block;
-      padding: .75rem 1.5rem;
-      font-size: .75rem;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      background: white;
-      color: black;
-      margin-top: .5rem;
+    .christmas-card-buttons {
+      margin-bottom: 2rem;
+
+      .btn {
+        display: inline-block;
+        padding: .75rem 1.5rem;
+        font-size: .75rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        background: white;
+        color: black;
+        margin-top: .5rem;
+      }
     }
   }
 }
