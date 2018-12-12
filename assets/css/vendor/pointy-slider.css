@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-size: 1rem;
+  font-size: .875rem;
   color: #767070;
   background-color: #ffffff;
 }
@@ -159,9 +159,9 @@ Slider
     -moz-transition: -moz-transform 0.6s 0s ease-in-out;
     transition: transform 0.6s 0s ease-in-out;
   }
-  .cd-slider .image {
+  /* .cd-slider .image {
     background-size: cover;
-  }
+  } */
   .cd-slider .cd-block.image {
     border-radius: 4px;
     width: 100%;

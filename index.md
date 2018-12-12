@@ -6,6 +6,7 @@ title: We're the Moderwells
 ![Moderwell Family - October 2017](/assets/img/family-bw.jpg)
 
 ### Currently We Are...
+- making our [2018 Christmas Card](/christmas-2018) & [corresponding letter](/assets/img/christmas-2018-letter.pdf)
 - contemplating what it [means to turn 30](/thoughts-on-thirty)
 - launching [a new wedding music service](https://weddingswithanna.com)
 - reading a [controversial book about parenting](https://www.amazon.com/Train-Child-Child-Training-21st-Century/dp/1616440724/ref=sr_1_1?ie=UTF8&qid=1537321505&sr=8-1&keywords=to+train+up+a+child+by+michael+and+debi+pearl) and trying to discover the best approach to training and discipline for our 3 kids.
