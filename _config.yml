@@ -17,6 +17,7 @@ assets:
   sources:
   - assets/css
   - assets/img
+  - assets/js
 
 exclude:
   - Gemfile

@@ -1,0 +1,33 @@
+---
+layout: blank
+permalink: /christmas-2018/pics
+pointy_slider: true
+---
+<div class="cd-slider-wrapper">
+	<ul class="cd-slider">
+		{% for item in site.christmas_pics %}
+		<li>
+			<div class="cd-block image" style="background-image: url('{{ item.img_url }}')"></div>
+			<!-- <div class="cd-block content" style="background-color: {{ item.bg_color }};">
+				<div>
+					<h2>{{ item.title }}</h2>
+					<p>
+						{{ item.caption }}
+					</p>
+				</div>
+			</div> -->
+		</li> <!-- .cd-half-block.content -->
+		{% endfor %}
+	</ul> <!-- .cd-slider -->
+</div> <!-- .cd-slider-wrapper -->
+<script>
+	// dynamically add visible class to first
+	var first = document.querySelectorAll('.cd-slider li')[0];
+	first.classList.add('is-visible');
+</script>
+{% asset vendor/jquery-2.1.4.js !integrity %}
+{% asset vendor/jquery.mobile.custom.min.js !integrity %}
+{% asset vendor/pointy-slider.js !integrity %}
+</body>
+
+</html>

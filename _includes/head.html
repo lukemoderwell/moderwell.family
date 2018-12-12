@@ -12,12 +12,20 @@
     {% endif %}
   </title>
 
+  {% include analytics.html %}
+
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml " | prepend: site.baseurl | prepend: site.url }}">
 
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png">
   <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
+
+  {% if page.pointy_slider %}
+    {% asset vendor/reset.css !intergrity %}
+    {% asset vendor/pointy-slider.css !intergrity %}
+    {% asset vendor/modernizr.js !integrity %}
+  {% endif %}
 
   {% if page.title == "Christmas 2018" %}
   <link href="https://fonts.googleapis.com/css?family=Rubik|Rubik+Mono+One" rel="stylesheet">
