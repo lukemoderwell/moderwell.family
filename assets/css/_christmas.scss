@@ -41,7 +41,7 @@
     padding: 1rem 1.5rem;
     text-align: center;
     color: white !important;
-    font-family: 'Rubik';
+    font-family: 'Work Sans';
     font-size: .875rem;
 
     h4, p {
@@ -51,28 +51,33 @@
 
     h4 {
       max-width: 65rem;
-      font-family: 'Rubik Mono One';
-      font-weight: 300;
-      font-size: 1.5rem;
-      color: white;
+      font-family: 'Playfair Display';
+      font-weight: 600;
+      font-size: 2rem;
+      color: #ffffff;
       
 
       @media (min-width: 767px) {
-        font-size: 1.75rem;
+        font-size: 2rem;
       }
     }
 
     p {
       max-width: 40rem;
+      font-weight: 300;
     }
 
     .christmas-card-buttons {
-      margin-bottom: 2rem;
+      margin-bottom: 4rem;
+
+      @media (min-width: 960px) {
+        margin-bottom: 2rem;
+      }
 
       .btn {
         display: inline-block;
         padding: .75rem 1.5rem;
-        font-size: .75rem;
+        font-size: .65rem;
         text-transform: uppercase;
         letter-spacing: 1px;
         background: white;
@@ -81,7 +86,7 @@
       }
 
       .btn + .btn {
-        margin-left: 1rem;
+        margin-left: .75rem;
       }
     }
   }
