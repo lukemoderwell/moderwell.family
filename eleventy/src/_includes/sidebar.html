@@ -1,0 +1,12 @@
+<div class="sidebar">
+  <div class="posts">
+    <h4>Journal</h4>
+    {% for post in site.posts %}
+      {% if post.status != "draft" %}
+        <a class="post-title" href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

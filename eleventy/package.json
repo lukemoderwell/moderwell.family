@@ -1,0 +1,29 @@
+{
+  "name": "moderwell.family",
+  "version": "1.0.0",
+  "description": "Family website 👨‍👧‍👧👩‍👦",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:eleventy": "npx @11ty/eleventy --serve",
+    "watch:sass": "npx sass src/scss:_site/css --watch",
+    "start": "npm run watch:eleventy & npm run watch:sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukemoderwell/moderwell.family.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukemoderwell/moderwell.family/issues"
+  },
+  "homepage": "https://github.com/lukemoderwell/moderwell.family#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "dependencies": {
+    "sass": "^1.45.0"
+  }
+}
