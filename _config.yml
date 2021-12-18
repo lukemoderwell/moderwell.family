@@ -24,7 +24,8 @@ exclude:
   - Gemfile.lock
   - README.md
 
-include: "_redirects"
+include: 
+  - _redirects
 
 collections_dir: collections
 
