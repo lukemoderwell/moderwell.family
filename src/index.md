@@ -1,6 +1,6 @@
 ---
 layout: base
-title: We're the Moderwells
+title: Moderwell Family Archive
 ---
 
-![Moderwell Family - October 2017](/assets/img/family-bw.jpg)
+## Welcome to the Moderwell family archives
