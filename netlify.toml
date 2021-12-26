@@ -1,0 +1,5 @@
+[context.archive]
+  command = "echo 'building archive branch subdomain via 11ty' && eleventy"
+  publish = "_site"
+  bundle = true
+  minify = true
