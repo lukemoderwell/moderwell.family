@@ -4,14 +4,11 @@
   {% include "head.html" %}
 
   <body>
+    <header class="header">
+      <a href="/" title="Home">Home</a>
+      <a href="/origin" title="Origin Story">Origin</a>
+    </header>
     <div class="container">
-      <header class="masthead">
-        <h3 class="masthead-title">
-          <a href="/" title="Home">Home</a>
-          <a href="/origin" title="Origin Story">Origin</a>
-        </h3>
-      </header>
-
       <main>
         {{ content | safe }}
       </main>

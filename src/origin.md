@@ -3,6 +3,8 @@ layout: base
 title: Origin
 ---
 
-### A Scottish Start
+## Scottish Beginnings
 
-This is an ancient Scottish surname. It originates from the town of Motherwell in the county of Lanarkshire, and as a surname is one of the very earliest recorded in that country. Locational surnames were usually 'from' names. That is to say names given to people after they left their original home, to move somewhere else. The exception to this rule was when a family owned a particular estate or manor as may well have been the situation with this name. Certainly the first known recording was that of John de Motherwell in 1244. He was a witness to a peace agreement between King Alexander 11nd of Scotland and England's King Henry 111rd. This would certainly suggest that this John de Motherwell was a person of considerable standing, and probably the lord of the manor of Motherwell. The spelling then underwent change as the national accent changed, and by 1296 the spelling was as Moderwell or even Modervale, and later Modirwall! Even as late as 1681 we have the recording of Johannes Modderwell of Rutherglen, a spelling which it was claimed, was still retained by the grandfather of the poet William Motherwell (1785 - 1835).
+The last name Moderwell comes from Scotland where it is thought to have originated from the town of [Motherwell](https://www.google.com/maps/place/Motherwell,+UK/@55.7934106,-4.0138431,13z/data=!3m1!4b1!4m5!3m4!1s0x4888134f0c2ae357:0x8108e0893e963536!8m2!3d55.7832092!4d-3.9810968) in the county of Lanarkshire. The [Internet Surname Database](https://www.surnamedb.com/Surname/Motherwell) says this about the surname Motherwell:
+
+> Certainly the first known recording was that of John de Motherwell in 1244. He was a witness to a peace agreement between King Alexander 11nd of Scotland and England's King Henry 111rd. This would certainly suggest that this John de Motherwell was a person of considerable standing, and probably the lord of the manor of Motherwell. The spelling then underwent change as the national accent changed, and by 1296 the spelling was as Moderwell

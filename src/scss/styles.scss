@@ -1,11 +1,19 @@
 @import '_reset.scss';
+@import '_typo.scss';
 
-html {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 100%;
+body {
+  padding: 1rem;
+  background-color: blanchedalmond;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
 }
 
 .container {
-    margin: 5% auto;
-    max-width: 640px;
+  margin: 0 auto;
+  max-width: 640px;
 }
