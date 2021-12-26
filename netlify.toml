@@ -3,3 +3,5 @@
   publish = "_site"
   bundle = true
   minify = true
+  environment = { NODE_VERSION = "14.15.3" }
+
