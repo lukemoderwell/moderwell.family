@@ -1,0 +1,27 @@
+// Signup
+//
+// Styling MC signup form embed (farm)
+
+.signup-form {
+    padding: 1rem 2rem;
+    border: 1px solid #cdcdcd;
+    border-radius: 6px;
+    background-color: $gray-2;
+
+    form {
+        display: flex;
+        align-items: center;
+        .mc-field-group {
+            width: 100%;
+        }
+        .optionalParent {
+            margin-left: auto;
+        }
+        input[type="submit"] {
+            background-color: orange;
+            font-size: 1rem;
+            border: rgba(0, 0, 0, 0.2);
+            padding: 0.5rem 0.875rem;
+        }
+    }
+}
