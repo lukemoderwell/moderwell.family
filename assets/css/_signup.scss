@@ -6,11 +6,12 @@
     padding: 1rem 2rem;
     border: 1px solid #cdcdcd;
     border-radius: 6px;
-    background-color: $gray-2;
+    background-color: $gray-1;
 
     form {
         display: flex;
         align-items: center;
+        color: $body-color;
         .mc-field-group {
             width: 100%;
         }
