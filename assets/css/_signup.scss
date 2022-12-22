@@ -7,22 +7,23 @@
     border: 1px solid #cdcdcd;
     border-radius: 6px;
     background-color: $gray-1;
+    color: $body-color;
 
-    form {
-        display: flex;
-        align-items: center;
+    h4 {
         color: $body-color;
-        .mc-field-group {
-            width: 100%;
-        }
-        .optionalParent {
-            margin-left: auto;
-        }
-        input[type="submit"] {
-            background-color: orange;
-            font-size: 1rem;
-            border: rgba(0, 0, 0, 0.2);
-            padding: 0.5rem 0.875rem;
-        }
+        margin: 0;
+        margin-bottom: .75rem;
+    }
+
+    .mc-field-group input {
+        width: 100%;
+    }
+
+    input[type="submit"] {
+        background-color: red;
+        font-size: 1rem;
+        border: rgba(0, 0, 0, 0.2);
+        padding: 0.5rem 0.875rem;
+        margin-top: .75rem;
     }
 }
