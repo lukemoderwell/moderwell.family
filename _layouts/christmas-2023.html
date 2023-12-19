@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="html">
+  {% include head.html %}
+
+  <body class="christmas-2020 christmas-2023">
+    <div class="hero">
+      <div class="content">
+        <h1 class="huge">Felíz Navidad</h1>
+        <h2>— ModCorp Industries Ltd.</h2>
+        {{ content }}
+        <div class="flex-container">
+          <button id="btn" class="btn">Loading</button>
+          <a
+            href="https://photos.app.goo.gl/SV5waxsUPDbPvEqH9"
+            target="_blank"
+            class="btn"
+            >2023 Photo Album</a
+          >
+        </div>
+        <audio
+          id="audio"
+          class="hide"
+          controls
+          preload="auto"
+          src="https://drive.google.com/uc?export=view&id=1hekidpD3zG442gq8sVgBq3HUjL2KPvuA"
+        >
+          Your browser does not support the
+          <code>audio</code> element.
+        </audio>
+      </div>
+    </div>
+  </body>
+  <script>
+    var btn = document.getElementById('btn');
+    var audio = document.getElementById('audio');
+    function init() {
+      btn.disabled = false;
+      btn.innerText = '► Play 2023 Song';
+    }
+    function togglePlay() {
+      if (!audio.paused) {
+        audio.pause();
+        btn.innerText = '► Play';
+      } else {
+        audio.play();
+        btn.innerText = '❚❚ Pause';
+      }
+    }
+    window.addEventListener('load', init);
+    btn.addEventListener('click', togglePlay);
+  </script>
+</html>

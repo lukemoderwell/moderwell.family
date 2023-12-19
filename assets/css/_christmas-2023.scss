@@ -1,0 +1,41 @@
+.html {
+  background-color: darkseagreen;
+}
+
+.christmas-2020.christmas-2023 {
+  .hero {
+    background: darkseagreen;
+    color: rgba(0, 0, 0, 0.75);
+    height: 100vh;
+
+    h1,
+    h2 {
+      color: rgba(0, 0, 0, 0.85);
+    }
+  }
+
+  a.btn {
+    background: white;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.85);
+    &:hover {
+      text-decoration: none;
+      background: darkseagreen;
+    }
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: 767px) {
+    h1.huge {
+      font-size: 3rem;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+}
